@@ -26,6 +26,7 @@ class _StoryPageState extends State<StoryPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(title: const Text('Nexos       Puntos:0'),) ,
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
