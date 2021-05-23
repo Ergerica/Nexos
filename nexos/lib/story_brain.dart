@@ -22,17 +22,17 @@ List<Story> _storyData = [
         choice2: 'Le dices que estas en la escuela y debes colgar.'),
     Story(
         storyTitle:
-            'El Profesor no te cree piensa que estas mientiendo, pero como eres un buen estudiante te dice que lo entregues mañana.',
+            'El Profesor no te cree piensa que estas mintiendo, pero como eres un buen estudiante te dice que lo entregues mañana. -- Te arrepientes de haberle mentido, Fue muy empatico contigo y tu situacion.',
         choice1: 'Restart',
         choice2: ''),
     Story(
         storyTitle:
-            'Cuando tu madre llega a casa te dice que la escuela la llamo, no volvera a confiar en ti jamas y que de ahora en adelante ella te llevara a la escuela y no habra mas privacidad.',
+            'Cuando tu madre llega a casa te dice que la escuela la llamo, no volvera a confiar en ti jamas y que de ahora en adelante ella te llevara a la escuela y no habra mas privacidad. -- Piensas en como mejorar y ser mas disciplinado con tu tareas para que vuelvan a confiar en ti.',
         choice1: 'Restart',
         choice2: ''),
     Story(
         storyTitle:
-            'Tu madre te dice que la llamaron de la escuela y estaba preocupada. Sin embargo, te dice que, estarás castigado por el resto de la semana y que, irá contigo en la tarde a la escuela para disculparte con tus maestros y decir la verdad.',
+            'Tu madre te dice que la llamaron de la escuela y estaba preocupada. Sin embargo, te dice que, estarás castigado por el resto de la semana y que, irá contigo en la tarde a la escuela para disculparte con tus maestros y decir la verdad. -- Le dejas saber a todos lo que hiciste y entiendes que debes ser mas claro con los demas al expresarte.',
         choice1: 'Restart',
         choice2: '')
   ];

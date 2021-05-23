@@ -26,7 +26,9 @@ class _StoryPageState extends State<StoryPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Nexos       Puntos:0'),) ,
+      appBar: AppBar(title: const Text('Nexos          Puntos: 0', style: TextStyle(
+    color: Colors.cyan
+  )),) ,
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
@@ -57,14 +59,14 @@ class _StoryPageState extends State<StoryPage> {
                 child: TextButton(
                   onPressed: () {
                     //Choice 1 made by user.
-                   
+              
                     setState(() {
                         storyBrain.nextStory(1);
                       });
                   },
                   style: TextButton.styleFrom(
                     primary: Colors.white,
-                    backgroundColor: Colors.red,
+                    backgroundColor: Colors.teal,
                     onSurface: Colors.grey,
                   ),
                   child: Text(
@@ -86,7 +88,7 @@ class _StoryPageState extends State<StoryPage> {
                   child: TextButton(
                     style: TextButton.styleFrom(
                       primary: Colors.white,
-                      backgroundColor: Colors.teal,
+                      backgroundColor:  Colors.orange,
                       onSurface: Colors.grey,
                     ),
                     onPressed: () {
